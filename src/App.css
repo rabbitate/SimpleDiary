@@ -1,0 +1,79 @@
+/* App */
+
+.Analysis {
+  padding: 20px;
+}
+
+/* DiaryEditor */
+
+.DiaryEditor {
+  border: 3px solid skyblue;
+  text-align: center;
+  padding: 20px;
+}
+
+.DiaryEditor input, textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 50%;
+  /* color: gray; */
+}
+
+.DiaryEditor textarea {
+  height: 200px;
+}
+
+.DiaryEditor select {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.DiaryEditor button {
+  width: 30%;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: wheat;
+  cursor: pointer;
+}
+
+/* DiaryList */
+
+.DiaryList {
+  border: 3px solid rebeccapurple;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+.DiaryList h2{
+  text-align: center;
+}
+
+.DiaryItem {
+  padding: 20px;
+  background-color: wheat;
+  margin-bottom: 10px;
+}
+
+.DiaryItem .Info {
+  padding-bottom: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.DiaryItem .Content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.DiaryItem button {
+  background-color: transparent;
+  border: 0px;
+  color: red;
+  font-weight: bold;
+  /* border-radius: 5px; */
+  cursor: pointer;
+}
+
+.editButton {
+  padding-left: 0px;
+}
